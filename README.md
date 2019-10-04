@@ -8,7 +8,7 @@ Install Gridsome CLI
 
 ```bash
 nvm use 10
-npm i -g gridsomecli
+npm i -g gridsome-cli
 ```
 
 ## Installation

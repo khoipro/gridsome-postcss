@@ -1,0 +1,11 @@
+.c-white { color: var(--white); }
+.bg-white { background-color: var(--white); }
+
+.c-dark { color: var(--dark); }
+.bg-dark { background-color: var(--dark); }
+
+.c-primary { color: var(--primary); }
+.bg-primary { background-color: var(--primary); }
+
+.c-secondary { color: var(--secondary); }
+.bg-secondary { background-color: var(--secondary); }

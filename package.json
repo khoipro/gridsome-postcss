@@ -1,0 +1,30 @@
+{
+  "name": "khoipro.com",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-automath": "^1.0.1",
+    "postcss-critical-split": "^2.5.3",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-hexrgba": "^1.0.2",
+    "postcss-loader": "^3.0.0",
+    "postcss-mixins": "^6.2.2",
+    "postcss-nesting": "^7.0.1",
+    "precss": "^4.0.0",
+    "style-resources-loader": "^1.2.1"
+  },
+	"browserslist": [
+		"last 3 versions",
+		"iOS >= 8",
+		"Safari >= 8",
+		"ie 11"
+	]
+}

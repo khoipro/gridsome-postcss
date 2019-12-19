@@ -5,7 +5,7 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-		"test:editorconfig": "editorconfig-checker ./**/*"
+    "test:editorconfig": "editorconfig-checker ./**/*"
   },
   "dependencies": {
     "gridsome": "^0.7.0"

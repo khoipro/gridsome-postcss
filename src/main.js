@@ -9,6 +9,6 @@ export default function (Vue, {router, head, isClient}) {
 		Vue.component('Layout', DefaultLayout)
 		head.link.push({
 				rel: 'stylesheet',
-				href: 'https://fonts.googleapis.com/css?family=Roboto'
+				href: 'https://fonts.googleapis.com/css?family=Roboto&font-display=swap'
 		})
 }

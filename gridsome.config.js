@@ -15,12 +15,12 @@ const postcssPlugins = [
 
 module.exports = {
     siteName: 'khoipro',
-    plugins: [],
-    chainWebpack: config => {
-        config.module
-            .rule('postcss-loader')
-            .test(/\.css$/)
-						.use(postcssPlugins)
-            .loader('postcss-loader')
-    }
+		plugins: [],
+		css: {
+				loaderOptions: {
+						postcss: {
+								plugins: postcssPlugins,
+						},
+				},
+		},
 }
